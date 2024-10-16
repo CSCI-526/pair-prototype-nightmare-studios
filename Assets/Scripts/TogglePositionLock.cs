@@ -7,7 +7,7 @@ public class TogglePositionLock : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        // Freeze the position by default
+
         FreezePosition();
     }
 
